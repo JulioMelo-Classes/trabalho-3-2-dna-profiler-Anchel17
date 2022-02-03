@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
+string
+-
+
+/home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp
+../include/interface.hpp
+/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
+iostream
+-
+
