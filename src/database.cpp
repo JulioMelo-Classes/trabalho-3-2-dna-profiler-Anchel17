@@ -1,5 +1,7 @@
 #include "../include/database.hpp"
 
+#include <iostream>
+
 using namespace std;
 
 Database::Database(string nome_arquivo){
@@ -18,6 +20,11 @@ Database::Database(string nome_arquivo){
 
         while(getline(data_arquivo, l_dataString, ',')){
             data_dadosBrutos.push_back(l_dataString);
+        }
+
+        for(int i = 0; i < data_dadosBrutos.size(); i++){
+            cout<<"vec["<<i<<"]: ";
+            cout<<data_dadosBrutos[i]<<endl;
         }
     }
     else{

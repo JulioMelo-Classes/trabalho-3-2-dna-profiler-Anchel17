@@ -16,6 +16,13 @@ class Dna{
         std::string dna_sequencia;          //<!Dna recebido do arquivo
 
         Interface interf_imp;              //<!Objeto para chamar os métodos de impressão
+
+        //Aqui são uns contadores para testar se minha lógica para identificar está correta
+        int AGAT = 0;
+
+        int AATG = 0;
+
+        int TATC = 0;
     public:
 
         /**
@@ -23,5 +30,10 @@ class Dna{
         *   a sequência de dna a ser avaliada
         */
         Dna(std::string nome_arq);
+
+        /**
+        *   Método para analisar o DNA e verificar as sequências
+        */
+        void analisa();
 };
 #endif
