@@ -20,7 +20,7 @@ int main(int argc, char* argv[]){
             //passa o nome do arquivo para abrir em database
             dados.recebe_dados(argv[i+1]);
         }
-        else if(strcmp(argv[i], "-s") == 0){
+        if(strcmp(argv[i], "-s") == 0){
             //passa o nome do arquivo para abrir em dna
             sequencia.recebe_sequencia(argv[i+1]);
         }

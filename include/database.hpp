@@ -16,16 +16,15 @@ class Database{
 
         std::ifstream data_arquivo;            //<!arquivo de dados .csv a ser aberto
 
-        std::vector<std::string> data_dadosBrutos;       //<!Vector contendo dados antes de serem tratados
+        std::vector<std::string> data_dados;       //<!Vector contendo dados antes de serem tratados
 
         std::vector<std::string> data_STRs;            //<!Vector de STRs
 
-        //talvez guardar a informação de qual linha é a ocorrência ajude, fazendo um pair<int, int> onde o primeiro é a linha que ocorre e o segundo a ocorrência
-        std::vector<int> data_ocorrencias;          //<!Vector contendo a quantidade de vezes que uma sequência de STR aconteceu
+        std::vector<int> perfil_gerado;         //<!Vector do perfil gerado pelo sequenciamento do DNA
+
+        std::vector<std::pair<int, int>> data_ocorrencias;          //<!Vector contendo a linha referente ao dono das ocorrências e a quantidade de vezes que uma sequência de STR aconteceu
 
         Interface interf_imprime;                 //<!Objeto para imprimir mensagens de erro ao tentar abrir um arquivo inválido
-
-        Dna dna_invest;             //<!Objeto para chamar a função de verificar as STRs
 
     public:
 
@@ -39,6 +38,18 @@ class Database{
          * Método para processar os dados recebidos
          */
         void processa();
+
+        /**
+         * Método que capta o nome do acusado caso ele tenha sido encontrado
+         * @param int Índice do acusado no vector de dados
+         */
+        void acusado(int linhaAcusado);
+
+        /**
+         * Método para procurar o perfil gerado pelo DNA recebido
+         * @param vector contendo as ocorrências das STRs
+         */
+        void procura_perfil();
 };
 
 #endif

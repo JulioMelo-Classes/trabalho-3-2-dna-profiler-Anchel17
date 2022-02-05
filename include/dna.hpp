@@ -5,7 +5,8 @@
 #include <vector>
 #include <string>
 
-#include "../include/interface.hpp"
+#include "./interface.hpp"
+#include "./database.hpp"
 
 /**
 *   Classe responsável por armazenar a informação que contém o DNA do indivíduo
@@ -33,6 +34,6 @@ class Dna{
         *   Método para analisar o DNA e verificar as sequências
         *   @param vector contendo as STRs a serem avaliadas
         */
-        void analisa(std::vector<std::string> m_STRs);
+        std::vector<int> analisa(std::vector<std::string> m_STRs);
 };
 #endif

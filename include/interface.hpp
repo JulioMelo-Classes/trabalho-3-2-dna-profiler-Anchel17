@@ -48,6 +48,12 @@ class Interface{
         *   consiga abrir o arquivo contendo o dna a ser inspecionado
         */
         void erro_arquivo_dna();
+        
+        /**
+         * Método para imprimir o nome do acusado mediante resultado do
+         * perfil de DNA gerado
+         */
+        void acusado(std::string nomeAcusado);
 };
 
 #endif

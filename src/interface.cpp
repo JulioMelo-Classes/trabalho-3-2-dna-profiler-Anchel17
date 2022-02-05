@@ -37,3 +37,14 @@ void Interface::erro_arquivo_dna(){
     cout<<"   ./dna_profiler -d ../data/arquivo_de_dados.csv -s ../data/arquivo_de_dna.txt\n"<<endl;
     exit(0);
 }
+
+void Interface::acusado(std::string nomeAcusado){
+    if(nomeAcusado != ""){
+        cout<<"\n\n>>> ACUSADO: "<<nomeAcusado<<endl;
+    }
+    else{
+        cout<<"\n\n>>> Ninguém foi acusado"<<endl;
+    }
+
+    exit(1);
+}
