@@ -2,6 +2,8 @@
 #define DNA_HPP
 
 #include <fstream>
+#include <vector>
+#include <string>
 
 #include "../include/interface.hpp"
 
@@ -13,27 +15,24 @@ class Dna{
     private:
         std::ifstream dna_arquivo;          //<!Arquivo contendo o dna do indivíduo a ser investigado        
     
-        std::string dna_sequencia;          //<!Dna recebido do arquivo
+        //std::string dna_sequencia;          //<!Dna recebido do arquivo
 
         Interface interf_imp;              //<!Objeto para chamar os métodos de impressão
 
-        //Aqui são uns contadores para testar se minha lógica para identificar está correta
-        int AGAT = 0;
-
-        int AATG = 0;
-
-        int TATC = 0;
+        std::vector<int> dna_OcorrSTRs;         //<!Vector contendo de contadores de ocorrência
     public:
 
         /**
-        *   Método construtor da classe Dna, recebe o nome do arquivo contendo
-        *   a sequência de dna a ser avaliada
+        *   Método que recebe o arquivo contendo a sequência de dna 
+        *   a ser avaliada
+        *   @param string nome do arquivo contendo a sequência de DNA
         */
-        Dna(std::string nome_arq);
+        void recebe_sequencia(std::string nome_arq);
 
         /**
         *   Método para analisar o DNA e verificar as sequências
+        *   @param vector contendo as STRs a serem avaliadas
         */
-        void analisa();
+        void analisa(std::vector<std::string> m_STRs);
 };
 #endif

@@ -14,7 +14,7 @@ void Interface::databaseOk(string nome_arquivo){
 }
 
 void Interface::arq_dnaOk(string nome_arq){
-    cout<<">>> arquivo de dados ["<<nome_arq<<"] OK"<<endl;
+    cout<<">>> arquivo de DNA suspeito ["<<nome_arq<<"] OK"<<endl;
 }
 
 void Interface::erro_arquivo_dados(){
