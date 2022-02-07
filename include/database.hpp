@@ -47,9 +47,15 @@ class Database{
 
         /**
          * Método para procurar o perfil gerado pelo DNA recebido
-         * @param vector contendo as ocorrências das STRs
+         * @param vector contendo o perfil gerado pela análise de DNA
          */
-        void procura_perfil();
+        void procura_perfil(std::vector<int> perfil_gerado);
+
+        /**
+         * Método que retorna as STRs lidas do arquivo de dados
+         * @return vector contendo as STRs
+         */
+        std::vector<std::string> getSTRs();
 };
 
 #endif

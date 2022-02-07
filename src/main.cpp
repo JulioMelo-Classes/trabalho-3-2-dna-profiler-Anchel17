@@ -26,7 +26,11 @@ int main(int argc, char* argv[]){
         }
     }
 
-    dados.processa(); 
+    dados.processa();
+        
+    sequencia.analisa(dados.getSTRs());
+
+    dados.procura_perfil(sequencia.getPerfil());
 
     return 0;
 }

@@ -50,11 +50,6 @@ void Database::processa(){
                 }
             }
         }
-        
-        Dna dna_invest;             //<!Objeto para chamar a função de verificar as STRs
-        perfil_gerado = dna_invest.analisa(data_STRs);
-
-        procura_perfil();
 }
 
 void Database::acusado(int linhaAcusado){
@@ -66,8 +61,11 @@ void Database::acusado(int linhaAcusado){
     interf_imprime.acusado("");
 }
 
-void Database::procura_perfil(){
+void Database::procura_perfil(vector<int> perfil_gerado){
     int l_matches;
+    for(int i = 0; i < perfil_gerado.size(); i++){
+        cout<<perfil_gerado[i]<<" ";
+    }
 
     for(int i = 0; i < data_ocorrencias.size();){
         l_matches = 0;
@@ -88,4 +86,8 @@ void Database::procura_perfil(){
     }
 
     acusado(-1);
+}
+
+vector<string> Database::getSTRs(){
+    return data_STRs;
 }

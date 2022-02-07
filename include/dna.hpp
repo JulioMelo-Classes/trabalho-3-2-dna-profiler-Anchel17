@@ -16,11 +16,11 @@ class Dna{
     private:
         std::ifstream dna_arquivo;          //<!Arquivo contendo o dna do indivíduo a ser investigado        
     
-        //std::string dna_sequencia;          //<!Dna recebido do arquivo
+        std::string dna_sequencia;          //<!Dna recebido do arquivo
 
         Interface interf_imp;              //<!Objeto para chamar os métodos de impressão
 
-        std::vector<int> dna_OcorrSTRs;         //<!Vector contendo de contadores de ocorrência
+        std::vector<int> dna_OcorrSTRs;         //<!Vector contendo de contadores de ocorrência das STRs
     public:
 
         /**
@@ -35,5 +35,11 @@ class Dna{
         *   @param vector contendo as STRs a serem avaliadas
         */
         std::vector<int> analisa(std::vector<std::string> m_STRs);
+
+        /**
+         * Método para retornar o perfil gerado com as ocorrências das STRs no DNA
+         * @return vector contendo as ocorrências das STRs
+         */
+        std::vector<int> getPerfil();
 };
 #endif

@@ -5,16 +5,13 @@
 
 using namespace std;
 
-//variável global enquanto n resolve o bug do dado desaparecer
-string dna_sequencia;
-
 void Dna::recebe_sequencia(string nome_arq){
     dna_arquivo.open(nome_arq, ios::in);
     
     if(dna_arquivo.is_open()){
         interf_imp.arq_dnaOk(nome_arq);
         
-        dna_arquivo >> dna_sequencia;
+        getline(dna_arquivo, dna_sequencia);
     }
     else{
         interf_imp.erro_arquivo_dna();
@@ -24,7 +21,6 @@ void Dna::recebe_sequencia(string nome_arq){
 }
 
 vector<int> Dna::analisa(vector<string> m_STRs){
-
     //inicializar os contadores
     for(int i = 0; i < m_STRs.size(); i++){
         dna_OcorrSTRs.push_back(0);
@@ -50,5 +46,9 @@ vector<int> Dna::analisa(vector<string> m_STRs){
         i++;
     }
 
+    return dna_OcorrSTRs;
+}
+
+vector<int>Dna::getPerfil(){
     return dna_OcorrSTRs;
 }
