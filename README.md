@@ -41,5 +41,5 @@ e funciona corretamente
  Este arquivo é o que possui menos STRs e menos DNAs a serem avaliadas para achar um acusado
 
 # O QUE FALTA
-- Imprimir o perfil de DNA gerado
+- Imprimir o perfil de DNA gerado, exibindo as quantidades das STRs presentes no DNA
 - melhorar o desempenho do código utilizando referências, atualmente ele está "pronto" mas não é eficiente
