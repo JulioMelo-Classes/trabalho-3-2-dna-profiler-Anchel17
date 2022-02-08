@@ -63,9 +63,6 @@ void Database::acusado(int linhaAcusado){
 
 void Database::procura_perfil(vector<int> perfil_gerado){
     int l_matches;
-    for(int i = 0; i < perfil_gerado.size(); i++){
-        cout<<perfil_gerado[i]<<" ";
-    }
 
     for(int i = 0; i < data_ocorrencias.size();){
         l_matches = 0;
