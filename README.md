@@ -35,10 +35,10 @@ A ideia desses testes foi verificar que o programa recebe uma quantidade indeter
 e funciona corretamente
 
 - teste1.csv
-Este arquivo que possui mais STRs e mais DNAs a serem avaliadas para achar um acusado
+ Este arquivo que possui mais STRs e mais DNAs a serem avaliadas para achar um acusado
 
 - teste2.csv
-Este arquivo é o que possui menos STRs e menos DNAs a serem avaliadas para achar um acusado
+ Este arquivo é o que possui menos STRs e menos DNAs a serem avaliadas para achar um acusado
 
 # O QUE FALTA
 - Imprimir o perfil de DNA gerado
