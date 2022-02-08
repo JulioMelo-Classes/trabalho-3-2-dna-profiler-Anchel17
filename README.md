@@ -34,12 +34,12 @@ cd build
 A ideia desses testes foi verificar que o programa recebe uma quantidade indeterminada de STRs
 e funciona corretamente
 
-#teste1.csv
+# teste1.csv
 Aqui é o arquivo que possui mais STRs e mais DNAs a serem avaliadas para achar um acusado
 
-#teste2.csv
+# teste2.csv
 Este arquivo é o que possui menos STRs e menos DNAs a serem avaliadas para achar um acusado
 
-#O QUE FALTA
+# O QUE FALTA
 - Imprimir o perfil de DNA gerado
 - melhorar o desempenho do código utilizando referências, atualmente ele está "pronto" mas não é eficiente
