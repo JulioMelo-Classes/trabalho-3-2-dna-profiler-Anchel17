@@ -10,11 +10,11 @@ void Interface::boas_vindas(){
 }
 
 void Interface::databaseOk(string nome_arquivo){
-    cout<<">>> arquivo de dados ["<<nome_arquivo<<"] OK\n\n"<<endl;
+    cout<<">>> arquivo de dados ["<<nome_arquivo<<"] OK\n"<<endl;
 }
 
 void Interface::arq_dnaOk(string nome_arq){
-    cout<<">>> arquivo de DNA suspeito ["<<nome_arq<<"] OK"<<endl;
+    cout<<">>> arquivo de DNA desconhecido ["<<nome_arq<<"] OK\n\n"<<endl;
 }
 
 void Interface::erro_arquivo_dados(){
@@ -47,4 +47,12 @@ void Interface::acusado(std::string nomeAcusado){
     }
 
     exit(1);
+}
+
+void Interface::imprime_perfil_gerado(vector<int>& perfil, vector<string>& strs){
+    cout<<">>>  perfil gerado  <<<\n";
+    for(int i = 0; i < strs.size(); i++){
+        cout<<"  "<<strs[i]<<": ";
+        cout<<perfil[i]<<endl;
+    }
 }
