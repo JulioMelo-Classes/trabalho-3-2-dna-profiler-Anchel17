@@ -28,9 +28,9 @@ int main(int argc, char* argv[]){
 
     dados.processa();
         
-    sequencia.analisa(dados.getSTRs());
+    sequencia.analisa(*dados.getSTRs());
 
-    dados.procura_perfil(sequencia.getPerfil());
+    dados.procura_perfil(*sequencia.getPerfil());
 
     return 0;
 }
