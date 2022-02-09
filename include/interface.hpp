@@ -2,6 +2,7 @@
 #define INTERFACE_HPP
 
 #include <string>
+#include <vector>
 
 /**
 *   Classe responsável por ser a interface do programa
@@ -54,6 +55,14 @@ class Interface{
          * perfil de DNA gerado
          */
         void acusado(std::string nomeAcusado);
+
+        /**
+         * Método para imprimir o perfil gerado pela análise de DNA
+         * @param vector perfil, são os contadores de ocorrência das STRs
+         * em um DNA
+         * @param vector strs, as STRs que foram analisadas
+         */
+        void imprime_perfil_gerado(std::vector<int>& perfil, std::vector<std::string>& strs);
 };
 
 #endif
