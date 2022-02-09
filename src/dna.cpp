@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 
 #include "../include/dna.hpp"
 
@@ -20,7 +19,7 @@ void Dna::recebe_sequencia(string nome_arq){
     dna_arquivo.close();
 }
 
-vector<int> Dna::analisa(vector<string> m_STRs){
+vector<int> Dna::analisa(vector<string>& m_STRs){
     //inicializar os contadores
     for(int i = 0; i < m_STRs.size(); i++){
         dna_OcorrSTRs.push_back(0);
@@ -49,6 +48,6 @@ vector<int> Dna::analisa(vector<string> m_STRs){
     return dna_OcorrSTRs;
 }
 
-vector<int>Dna::getPerfil(){
-    return dna_OcorrSTRs;
+vector<int>* Dna::getPerfil(){
+    return &dna_OcorrSTRs;
 }
