@@ -16,7 +16,7 @@ int main(int argc, char* argv[]){
     interf_welcome.boas_vindas();
     
     for(int i = 0; i < argc; i++){
-        if(strcmp(argv[i], "-d") == 0){
+        if(argv[i] == string("-d")){ //aqui poderia ser c++ :)
             //passa o nome do arquivo para abrir em database
             dados.recebe_dados(argv[i+1]);
         }

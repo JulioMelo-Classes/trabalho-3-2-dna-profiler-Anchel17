@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include 
+CXX_INCLUDES = -I/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include 
 

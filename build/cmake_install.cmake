@@ -1,4 +1,4 @@
-# Install script for directory: /home/vitor/trabalho-3-2-dna-profiler-Anchel17
+# Install script for directory: /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

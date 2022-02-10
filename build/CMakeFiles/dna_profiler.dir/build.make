@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vitor/trabalho-3-2-dna-profiler-Anchel17
+CMAKE_SOURCE_DIR = /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vitor/trabalho-3-2-dna-profiler-Anchel17/build
+CMAKE_BINARY_DIR = /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dna_profiler.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/dna_profiler.dir/flags.make
 
 CMakeFiles/dna_profiler.dir/src/main.cpp.o: CMakeFiles/dna_profiler.dir/flags.make
 CMakeFiles/dna_profiler.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dna_profiler.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/main.cpp.o -c /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dna_profiler.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/main.cpp.o -c /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp
 
 CMakeFiles/dna_profiler.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dna_profiler.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp > CMakeFiles/dna_profiler.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp > CMakeFiles/dna_profiler.dir/src/main.cpp.i
 
 CMakeFiles/dna_profiler.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dna_profiler.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp -o CMakeFiles/dna_profiler.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp -o CMakeFiles/dna_profiler.dir/src/main.cpp.s
 
 CMakeFiles/dna_profiler.dir/src/interface.cpp.o: CMakeFiles/dna_profiler.dir/flags.make
 CMakeFiles/dna_profiler.dir/src/interface.cpp.o: ../src/interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dna_profiler.dir/src/interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/interface.cpp.o -c /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dna_profiler.dir/src/interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/interface.cpp.o -c /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp
 
 CMakeFiles/dna_profiler.dir/src/interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dna_profiler.dir/src/interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp > CMakeFiles/dna_profiler.dir/src/interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp > CMakeFiles/dna_profiler.dir/src/interface.cpp.i
 
 CMakeFiles/dna_profiler.dir/src/interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dna_profiler.dir/src/interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp -o CMakeFiles/dna_profiler.dir/src/interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/interface.cpp -o CMakeFiles/dna_profiler.dir/src/interface.cpp.s
 
 CMakeFiles/dna_profiler.dir/src/database.cpp.o: CMakeFiles/dna_profiler.dir/flags.make
 CMakeFiles/dna_profiler.dir/src/database.cpp.o: ../src/database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dna_profiler.dir/src/database.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/database.cpp.o -c /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dna_profiler.dir/src/database.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/database.cpp.o -c /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp
 
 CMakeFiles/dna_profiler.dir/src/database.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dna_profiler.dir/src/database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp > CMakeFiles/dna_profiler.dir/src/database.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp > CMakeFiles/dna_profiler.dir/src/database.cpp.i
 
 CMakeFiles/dna_profiler.dir/src/database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dna_profiler.dir/src/database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp -o CMakeFiles/dna_profiler.dir/src/database.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/database.cpp -o CMakeFiles/dna_profiler.dir/src/database.cpp.s
 
 CMakeFiles/dna_profiler.dir/src/dna.cpp.o: CMakeFiles/dna_profiler.dir/flags.make
 CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../src/dna.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dna_profiler.dir/src/dna.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/dna.cpp.o -c /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dna_profiler.dir/src/dna.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dna_profiler.dir/src/dna.cpp.o -c /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp
 
 CMakeFiles/dna_profiler.dir/src/dna.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dna_profiler.dir/src/dna.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp > CMakeFiles/dna_profiler.dir/src/dna.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp > CMakeFiles/dna_profiler.dir/src/dna.cpp.i
 
 CMakeFiles/dna_profiler.dir/src/dna.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dna_profiler.dir/src/dna.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp -o CMakeFiles/dna_profiler.dir/src/dna.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp -o CMakeFiles/dna_profiler.dir/src/dna.cpp.s
 
 # Object files for target dna_profiler
 dna_profiler_OBJECTS = \
@@ -125,7 +125,7 @@ dna_profiler: CMakeFiles/dna_profiler.dir/src/database.cpp.o
 dna_profiler: CMakeFiles/dna_profiler.dir/src/dna.cpp.o
 dna_profiler: CMakeFiles/dna_profiler.dir/build.make
 dna_profiler: CMakeFiles/dna_profiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable dna_profiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable dna_profiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dna_profiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/dna_profiler.dir/clean:
 .PHONY : CMakeFiles/dna_profiler.dir/clean
 
 CMakeFiles/dna_profiler.dir/depend:
-	cd /home/vitor/trabalho-3-2-dna-profiler-Anchel17/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vitor/trabalho-3-2-dna-profiler-Anchel17 /home/vitor/trabalho-3-2-dna-profiler-Anchel17 /home/vitor/trabalho-3-2-dna-profiler-Anchel17/build /home/vitor/trabalho-3-2-dna-profiler-Anchel17/build /home/vitor/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles/dna_profiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17 /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17 /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build /home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/build/CMakeFiles/dna_profiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dna_profiler.dir/depend
 

@@ -1,3 +1,5 @@
+project(dna_profiler) #adicionei para não dar warning
+
 cmake_minimum_required(VERSION 3.0)
 
 ### Executável

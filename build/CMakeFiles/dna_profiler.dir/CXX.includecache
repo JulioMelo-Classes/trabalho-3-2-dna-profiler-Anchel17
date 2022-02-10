@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/database.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/database.hpp
 fstream
 -
 vector
@@ -14,11 +14,11 @@ vector
 string
 -
 ../include/interface.hpp
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
 ../include/dna.hpp
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
 
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
 fstream
 -
 vector
@@ -26,19 +26,23 @@ vector
 string
 -
 ./interface.hpp
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
-./database.hpp
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/database.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
 
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
 string
 -
-
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/src/dna.cpp
-string
+vector
 -
+
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/src/main.cpp
 iostream
 -
+cstring
+-
+../include/database.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/database.hpp
 ../include/dna.hpp
-/home/vitor/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/dna.hpp
+../include/interface.hpp
+/home/julio/lp1/2021.2/trabalho3.2/trabalho-3-2-dna-profiler-Anchel17/include/interface.hpp
 

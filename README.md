@@ -42,3 +42,20 @@ e funciona corretamente
 
 # O QUE FALTA
 - Imprimir o DNA com as sequências de STRs coloridas
+
+# Checkin 1
+
+1. Projete ao menos as 3 classes principais propostas para o programa. Não precisa implementar, apenas os .h são suficientes.
+- Ok
+
+2. Implemente a classe responsável por ler e armazenar as informações do banco de dados de entrada.
+- ok
+
+3. Escreva o main instanciando a do item 2 mostrando que ela funciona para carregar e armazenar as informações.
+- ok
+
+4. Escreva parte da classe responsável pela interface com o usuário, de forma que o usuário consiga ao menos digitar a alguma palavra no loop principal, mostrando uma interface similar à interface sugerida na atividade 3.2.
+- ok
+
+5. Use a classe implementada em 4 no main, para mostrar que ela funciona. Não precisa realizar qualquer busca no banco, se a entrada do usuário estiver sendo recebida e impressa no terminal já conta para esse checkin.
+- ok
