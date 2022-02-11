@@ -57,6 +57,12 @@ class Interface{
         void acusado(std::string nomeAcusado);
 
         /**
+         * Método para imprimir o DNA analisado
+         * @param string contendo o DNA
+         */
+        void imprime_dna(std::string& dnaRecebido);
+
+        /**
          * Método para imprimir o perfil gerado pela análise de DNA
          * @param vector perfil, são os contadores de ocorrência das STRs
          * em um DNA

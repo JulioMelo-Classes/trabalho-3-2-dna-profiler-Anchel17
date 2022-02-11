@@ -40,7 +40,7 @@ void Interface::erro_arquivo_dna(){
 
 void Interface::acusado(std::string nomeAcusado){
     if(nomeAcusado != ""){
-        cout<<"\n\n>>> ACUSADO: "<<nomeAcusado<<endl;
+        cout<<"\n>>> ACUSADO: "<<nomeAcusado<<endl;
     }
     else{
         cout<<"\n\n>>> Ninguém foi acusado"<<endl;
@@ -49,10 +49,14 @@ void Interface::acusado(std::string nomeAcusado){
     exit(1);
 }
 
+void Interface::imprime_dna(string& dnaRecebido){
+    cout<<"["<<dnaRecebido<<"]"<<endl;
+}
+
 void Interface::imprime_perfil_gerado(vector<int>& perfil, vector<string>& strs){
-    cout<<">>>  perfil gerado  <<<\n";
+    cout<<">>>  perfil gerado  <<<\n\n";
     for(int i = 0; i < strs.size(); i++){
-        cout<<"  "<<strs[i]<<": ";
+        cout<<"     "<<strs[i]<<": ";
         cout<<perfil[i]<<endl;
     }
 }

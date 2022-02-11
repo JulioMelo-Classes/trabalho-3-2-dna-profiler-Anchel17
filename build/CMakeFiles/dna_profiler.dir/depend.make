@@ -6,7 +6,6 @@ CMakeFiles/dna_profiler.dir/src/database.cpp.o: ../include/dna.hpp
 CMakeFiles/dna_profiler.dir/src/database.cpp.o: ../include/interface.hpp
 CMakeFiles/dna_profiler.dir/src/database.cpp.o: ../src/database.cpp
 
-CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../include/database.hpp
 CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../include/dna.hpp
 CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../include/interface.hpp
 CMakeFiles/dna_profiler.dir/src/dna.cpp.o: ../src/dna.cpp

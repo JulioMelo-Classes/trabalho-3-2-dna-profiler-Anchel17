@@ -20,6 +20,7 @@ class Dna{
         Interface interf_imp;              //<!Objeto para chamar os métodos de impressão
 
         std::vector<int> dna_OcorrSTRs;         //<!Vector contendo de contadores de ocorrência das STRs
+
     public:
 
         /**

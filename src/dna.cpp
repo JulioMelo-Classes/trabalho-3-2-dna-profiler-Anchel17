@@ -32,18 +32,20 @@ vector<int> Dna::analisa(vector<string>& m_STRs){
             if(dna_sequencia[i] == m_STRs[j][0] && dna_sequencia[i+1] == m_STRs[j][1]
             && dna_sequencia[i+2] == m_STRs[j][2] && dna_sequencia[i+3] == m_STRs[j][3]){
                 l_maior++;
-                if(l_maior > dna_OcorrSTRs[j]){
-                    dna_OcorrSTRs[j] = l_maior;
-                }
                 i+=4;
             }
             else{
+                if(l_maior > dna_OcorrSTRs[j]){
+                    dna_OcorrSTRs[j] = l_maior;
+                }
                 l_maior = 0;
                 j++;
             }
         }
         i++;
     }
+
+    interf_imp.imprime_dna(dna_sequencia);
 
     return dna_OcorrSTRs;
 }
